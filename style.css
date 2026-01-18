@@ -1,0 +1,107 @@
+/* Navbar primary button text color */
+#navbar a[href="https://evict.bot/invite"] {
+  color: #000 !important;
+}
+
+#navbar a[href="https://evict.bot/invite"] * {
+  color: #000 !important;
+}
+
+/* Footer link columns spacing */
+footer [class*="footer-links"],
+footer [class*="FooterLinks"],
+footer [class*="links-grid"],
+footer [class*="LinksGrid"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 32px;
+}
+
+footer [class*="footer-links"] h3,
+footer [class*="FooterLinks"] h3 {
+  margin-bottom: 10px;
+}
+
+footer [class*="footer-links"] li,
+footer [class*="FooterLinks"] li {
+  margin-top: 6px;
+}
+
+/* Fallback: add spacing for Mintlify footer links containers */
+footer [class*="links"],
+footer [class*="Links"],
+footer nav,
+footer .links,
+footer .footer-links {
+  gap: 32px;
+  column-gap: 32px;
+  row-gap: 16px;
+  flex-wrap: wrap;
+}
+
+footer [class*="links"] > div,
+footer [class*="Links"] > div,
+footer nav > div,
+footer .links > div,
+footer .footer-links > div {
+  min-width: 160px;
+}
+
+/* Target Mintlify footer grid to keep 3 columns on narrow content widths */
+footer [class*="flex"][class*="sm:grid"][class*="max-md:!grid-cols-2"][class*="gap-8"][class*="flex-1"] {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(120px, 1fr)) !important;
+  column-gap: 28px;
+  row-gap: 20px;
+}
+
+footer .flex.flex-col.md\:flex-row.gap-8.justify-between {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+footer .flex.flex-col.md\:flex-row.gap-8.justify-between > .flex.md\:flex-col {
+  flex: 0 0 140px;
+  margin-right: 12px;
+}
+
+/* Nudge footer logo container to free space for columns */
+footer .flex.md\:flex-col.justify-between.items-center {
+  margin-right: 16px;
+}
+
+@media (max-width: 700px) {
+  footer [class*="flex"][class*="sm:grid"][class*="max-md:!grid-cols-2"][class*="gap-8"][class*="flex-1"] {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(140px, 1fr)) !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  footer [class*="footer-links"],
+  footer [class*="FooterLinks"],
+  footer [class*="links"],
+  footer [class*="Links"],
+  footer nav,
+  footer .links,
+  footer .footer-links {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    gap: 24px;
+    column-gap: 24px;
+  }
+}
+
+@media (max-width: 800px) {
+  footer [class*="footer-links"],
+  footer [class*="FooterLinks"],
+  footer [class*="links"],
+  footer [class*="Links"],
+  footer nav,
+  footer .links,
+  footer .footer-links {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
