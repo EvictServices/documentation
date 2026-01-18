@@ -25,7 +25,7 @@
                 "group": "Get Started",
                 "icon": "rocket",
                 "pages": [
-                  "quickstart"
+                  "start/quickstart"
                 ]
               },
               {
