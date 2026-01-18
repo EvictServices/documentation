@@ -217,8 +217,8 @@
     ]
   },
   "logo": {
-    "light": "assets/logo/light.svg",
-    "dark": "assets/logo/dark.svg",
+    "light": "../assets/logo/light.svg",
+    "dark": "../assets/logo/dark.svg",
     "href": "https://documentation.evict.bot"
   },
   "api": {
