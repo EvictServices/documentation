@@ -261,7 +261,7 @@
           },
           {
             "label": "Status",
-            "href": "https://documentation.evict.bot/status"
+            "href": "/status"
           }
         ]
       },
