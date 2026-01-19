@@ -17,209 +17,137 @@
   "navigation": {
     "languages": [
       {
-        "tabs": [
+        "groups": [
           {
-            "tab": "Documentation",
-            "groups": [
-              {
-                "group": "Get Started",
-                "icon": "rocket",
-                "pages": [
-                  "start/quickstart"
-                ]
-              },
-              {
-                "group": "Commands",
-                "icon": "command",
-                "pages": [
-                  {
-                    "group": "Config",
-                    "pages": [
-                      "commands/config/antinuke",
-                      "commands/config/autorole",
-                      "commands/config/context",
-                      "commands/config/customize",
-                      "commands/config/invoke",
-                      "commands/config/pingonjoin",
-                      "commands/config/prefix",
-                      "commands/config/rolebuttons",
-                      "commands/config/user",
-                      "commands/config/vanity"
-                    ]
-                  },
-                  {
-                    "group": "Fun",
-                    "pages": [
-                      "commands/fun/balance",
-                      "commands/fun/bite",
-                      "commands/fun/blackjack",
-                      "commands/fun/blunt",
-                      "commands/fun/blush",
-                      "commands/fun/bored",
-                      "commands/fun/choose",
-                      "commands/fun/coinflip",
-                      "commands/fun/cuddle",
-                      "commands/fun/cute",
-                      "commands/fun/daily",
-                      "commands/fun/dance",
-                      "commands/fun/dice",
-                      "commands/fun/dih",
-                      "commands/fun/eightball",
-                      "commands/fun/feed",
-                      "commands/fun/fuck",
-                      "commands/fun/gay",
-                      "commands/fun/handhold",
-                      "commands/fun/highfive",
-                      "commands/fun/hot",
-                      "commands/fun/hug",
-                      "commands/fun/kiss",
-                      "commands/fun/leaderboard",
-                      "commands/fun/lesbian",
-                      "commands/fun/limbo",
-                      "commands/fun/lurk",
-                      "commands/fun/media",
-                      "commands/fun/nod",
-                      "commands/fun/nutkick",
-                      "commands/fun/pat",
-                      "commands/fun/peck",
-                      "commands/fun/poke",
-                      "commands/fun/punch",
-                      "commands/fun/rain",
-                      "commands/fun/rakeback",
-                      "commands/fun/retarded",
-                      "commands/fun/roleplay",
-                      "commands/fun/roulette",
-                      "commands/fun/shoot",
-                      "commands/fun/shutup",
-                      "commands/fun/slap",
-                      "commands/fun/sleep",
-                      "commands/fun/slots",
-                      "commands/fun/smug",
-                      "commands/fun/spank",
-                      "commands/fun/stare",
-                      "commands/fun/think",
-                      "commands/fun/tickle",
-                      "commands/fun/tip",
-                      "commands/fun/trans",
-                      "commands/fun/uncrossable",
-                      "commands/fun/uwulock",
-                      "commands/fun/wave",
-                      "commands/fun/wink",
-                      "commands/fun/work",
-                      "commands/fun/yawn",
-                      "commands/fun/yeet",
-                      "commands/fun/yom"
-                    ]
-                  },
-                  {
-                    "group": "Information",
-                    "pages": [
-                      "commands/information/avatar",
-                      "commands/information/banner",
-                      "commands/information/bans",
-                      "commands/information/baseball",
-                      "commands/information/basketball",
-                      "commands/information/boosters",
-                      "commands/information/botinfo",
-                      "commands/information/bots",
-                      "commands/information/cashapp",
-                      "commands/information/collegefootball",
-                      "commands/information/credits",
-                      "commands/information/dominant",
-                      "commands/information/emojis",
-                      "commands/information/firstmessage",
-                      "commands/information/football",
-                      "commands/information/guildnames",
-                      "commands/information/hockey",
-                      "commands/information/inrole",
-                      "commands/information/invite",
-                      "commands/information/inviteinfo",
-                      "commands/information/invites",
-                      "commands/information/joins",
-                      "commands/information/lyrics",
-                      "commands/information/memberbanner",
-                      "commands/information/membercount",
-                      "commands/information/namehistory",
-                      "commands/information/permissions",
-                      "commands/information/roleinfo",
-                      "commands/information/roles",
-                      "commands/information/server",
-                      "commands/information/serveravatar",
-                      "commands/information/serverbanner",
-                      "commands/information/servericon",
-                      "commands/information/serverinfo",
-                      "commands/information/soccer",
-                      "commands/information/spotify",
-                      "commands/information/stickers",
-                      "commands/information/support",
-                      "commands/information/urbandictionary",
-                      "commands/information/userinfo",
-                      "commands/information/wnba"
-                    ]
-                  },
-                  {
-                    "group": "Lastfm",
-                    "pages": [
-                      "commands/lastfm/lastfm",
-                      "commands/lastfm/nowplaying",
-                      "commands/lastfm/song"
-                    ]
-                  },
-                  {
-                    "group": "Moderation",
-                    "pages": [
-                      "commands/moderation/ban",
-                      "commands/moderation/kick"
-                    ]
-                  },
-                  {
-                    "group": "Socials",
-                    "pages": [
-                      "commands/socials/deezer",
-                      "commands/socials/github",
-                      "commands/socials/minecraft",
-                      "commands/socials/movie",
-                      "commands/socials/psn",
-                      "commands/socials/roblox",
-                      "commands/socials/steam",
-                      "commands/socials/tvshow",
-                      "commands/socials/xbox"
-                    ]
-                  },
-                  {
-                    "group": "Utilities",
-                    "pages": [
-                      "commands/utilities/afk",
-                      "commands/utilities/clearsnipes",
-                      "commands/utilities/createembed",
-                      "commands/utilities/editsnipe",
-                      "commands/utilities/giveaway",
-                      "commands/utilities/ping",
-                      "commands/utilities/reactionsnipe",
-                      "commands/utilities/snipe"
-                    ]
-                  }
-                ]
-              }
+            "group": "Overview",
+            "pages": [
+              "overview/introduction",
+              "overview/customization"
             ]
           },
           {
-            "tab": "Guides",
-            "groups": []
-          },
-          {
-            "tab": "Changelog",
-            "groups": []
+            "group": "Security Setup",
+            "pages": [
+              "security/antinuke",
+              "security/antiraid",
+              "security/moderation",
+              "security/fakepermissions"
+            ]
           }
         ],
         "language": "en"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "de/overview/introduction",
+              "de/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "de/security/antinuke",
+              "de/security/antiraid",
+              "de/security/moderation",
+              "de/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "de"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "fr/overview/introduction",
+              "fr/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "fr/security/antinuke",
+              "fr/security/antiraid",
+              "fr/security/moderation",
+              "fr/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "fr"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "hi/overview/introduction",
+              "hi/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "hi/security/antinuke",
+              "hi/security/antiraid",
+              "hi/security/moderation",
+              "hi/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "hi"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "no/overview/introduction",
+              "no/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "no/security/antinuke",
+              "no/security/antiraid",
+              "no/security/moderation",
+              "no/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "no"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "es/overview/introduction",
+              "es/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "es/security/antinuke",
+              "es/security/antiraid",
+              "es/security/moderation",
+              "es/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "es"
       }
     ]
   },
   "logo": {
     "light": "../assets/logo/light.svg",
     "dark": "../assets/logo/dark.svg",
-    "href": "https://documentation.evict.bot"
+    "href": "/"
   },
   "api": {
     "mdx": {
@@ -261,7 +189,7 @@
           },
           {
             "label": "Status",
-            "href": "/status"
+            "href": "/miscellaneous/status"
           }
         ]
       },
