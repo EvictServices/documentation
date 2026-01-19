@@ -141,6 +141,27 @@
           }
         ],
         "language": "es"
+      },
+      {
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "ru/overview/introduction",
+              "ru/overview/customization"
+            ]
+          },
+          {
+            "group": "Security Setup",
+            "pages": [
+              "ru/security/antinuke",
+              "ru/security/antiraid",
+              "ru/security/moderation",
+              "ru/security/fakepermissions"
+            ]
+          }
+        ],
+        "language": "ru"
       }
     ]
   },
